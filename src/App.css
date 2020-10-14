@@ -9,10 +9,19 @@
   justify-content: center;
   align-items: center;
 }
+.searchBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .search-bar {
   width: 30%;
   border: none;
   padding: 10px;
+  border-radius: 20px 0px 0px 20px;
+  outline: none;
+  padding-left: 25px;
 }
 
 .search-button {
@@ -20,6 +29,13 @@
   border: none;
   padding: 10px 20px;
   color: white;
+  border-radius: 0 20px 20px 0;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+i {
+  color: aliceblue;
 }
 
 .receptes {

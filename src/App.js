@@ -32,8 +32,10 @@ const App = () =>{
   return(
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
-        <input className="search-bar" type="text" value={search} onChange = {updateSearch} />
-        <button className="search-button" type="submit"> Busqueda</button>
+        <div className="searchBox">
+          <input className="search-bar" type="text" value={search} onChange = {updateSearch} />
+          <button className="search-button " type="submit"> Busqueda</button>
+        </div>
       </form>
       <div className="receptes">
         {receptes.map(recepte =>(
