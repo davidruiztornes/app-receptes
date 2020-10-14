@@ -8,15 +8,15 @@
   background: white;
   align-items: center;
   min-width: 30%;
-  max-width: 250px;
-  padding: 20px 0px;
+  width: 300px;
+  padding-bottom: 30px;
 }
 h1 {
   max-width: 300px;
   text-align: center;
 }
 ul {
-  justify-content: center;
+  width: 70%;
 }
 img {
   width: 70%;
